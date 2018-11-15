@@ -1,0 +1,25 @@
+# This file record SQL
+[DEFAULT]
+# Used to drop the specific admin though the login info 
+adminFilter = loginId
+
+[database]
+host = 127.0.0.1
+port = 3306
+user = root
+passwd = 123
+dbname = fpplatform
+charset = utf8
+
+[database_test]
+host = xxx.xxx.xxx.xxx
+port = 3306
+user = xxxx
+passwd = xxxx
+dbname = fpplatform
+charset = utf8
+
+[sql]
+selectTestdemandrouteSQL = select fp_PT_detail.functionModule, fp_testdemand.route,fp_testdemand.testRequirement, fp_testdemand.testTask from fp_PT_detail join fp_testdemand on(fp_PT_detail.storyid = fp_testdemand.testRequirementCode) where fp_PT_detail.functionModule != '';
+selectTestcaserouteSQL = select fp_PT_detail.functionModule, fp_testcase.route,fp_testcase.testCase, fp_testcase.testTask from fp_PT_detail join fp_testcase on(fp_PT_detail.storyid = fp_testcase.requirementCode) where fp_PT_detail.functionModule != '';
+selectProductcodeSQL = select productcode from fp_product_sys where system = %s;
