@@ -1,5 +1,4 @@
 # PT_functionModule
-PT_functionModule
 1、使用环境：
 Python3.6
 
@@ -44,40 +43,6 @@ configparser：解析配置文件，CMD进入所在文件夹，运行pip install
   0<相似度<50%:    相似度低
   50%<=相似度<100%:相似度高
   相似度=100%:     完全一样
-
-例子：运行信息输出如下：
-Create MySQL database connection successfull...
-==================== Evaluation of Test Demands is Begin ==============================
-======================= Final Test Demands Route Results ================================
-测试需求路径匹配相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-测试需求路径余弦相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-==================== Evaluation Test Demands Route is Done ==============================
-======================= Final Test Demands Route+Name Results ================================
-测试需求路径+测试需求名称匹配相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-测试需求路径+测试需求名称余弦相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-==================== Evaluation Test Demands Route+Name is Done ==============================
-======================= Final Test Demands Last Route Results ================================
-测试需求路径匹配相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-测试需求路径余弦相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-==================== Evaluation Test Demands Last Route is Done ==============================
-==============================================================================================
-Close MySQL database connection successfull...
-Create MySQL database connection successfull...
-==================== Evaluation of Test Cases is Begin ==============================
-======================= Final Test Cases Route Results ================================
-测试案例路径匹配相似度： 不相似: 0 相似度低: 0 相似度高: 1 完全一样: 0
-测试案例路径余弦相似度： 不相似: 0 相似度低: 0 相似度高: 2 完全一样: 0
-==================== Evaluation Test Cases Route is Done ==============================
-======================= Final Test Cases Route+Name Results ================================
-测试案例路径+测试案例名称匹配相似度： 不相似: 0 相似度低: 0 相似度高: 1 完全一样: 0
-测试案例路径+测试案例名称余弦相似度： 不相似: 0 相似度低: 0 相似度高: 1 完全一样: 0
-==================== Evaluation Test Cases Route+Name is Done ==============================
-======================= Final Test Demands Last Route Results ================================
-测试需求路径匹配相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-测试需求路径余弦相似度： 不相似: 1 相似度低: 0 相似度高: 0 完全一样: 0
-==================== Evaluation Test Demands Last Route is Done ==============================
-Close MySQL database connection successfull...
-
 
 5、遇到问题
 如遇到问题可及时反馈解决。
